@@ -1,0 +1,164 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* header */
+header {
+  background: linear-gradient(to right, #ff7e5f, #feb47b);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+header a {
+  padding: 20px;
+  color: white;
+  text-decoration: none;
+}
+header a:hover {
+  color: #ff7e5f;
+  text-decoration: underline;
+}
+
+
+ /* main*/
+  .article {
+    margin: 20px auto;
+    padding: 10px;
+    max-width: 800px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background: white;
+    display:flex;
+    flex-flow: column wrap;
+   }
+  .article h2 {
+    color: #444;
+    text-decoration: underline;
+  }
+  .article p {
+    color: #444;
+  }
+  .article img {
+    max-width: 100%;
+    border-radius: 5px;
+  }  
+  .article video {
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+
+/*footer*/
+  footer {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+  }
+  footer p {
+    margin: 0;
+  }
+  footer a {
+    color: white;
+    text-decoration: none;
+  }
+  footer a:hover {
+    text-decoration: underline;
+  }
+  
+/*about*/
+.about{
+    margin: 20px auto;
+    padding: 20px;
+    max-width: 800px;
+    background: #fef6e4;
+    border-left: 5px solid #feb47b;
+  }
+  .about h2 {
+    color: #333;
+  }
+  
+
+  /* Blog Post Section --First Tour*/
+
+.blog-post {
+  background: white;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.blog-post h2 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+.blog-post .date {
+  font-size: 14px;
+  color: #777;
+  margin-bottom: 15px;
+}
+
+.blog-post img {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+.blog-post video {
+  height: 400px;
+  width: 600px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.blog-post .summary {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.blog-post .content {
+  font: size 16px;;
+  line-height: 1.8;
+}
+  
+/* Responsive webpage work on some pages*/
+@media (min-width: 1024px) {
+  .article img {
+    width: 60%;
+  }
+  .article video {
+    width: 60%;
+  }
+}
+@media (max-width: 1024px) {
+  .article img {
+    width: 50%;
+  }
+  .article video {
+    width: 50%;
+  }
+}
+@media (max-width: 768px) {
+  .article img {
+    width: 40%;
+  }
+  .article video {
+    width: 40%;
+  }
+}
+@media (max-width: 480px) {
+  .article img {
+    width: 20%;
+  }
+  .article video {
+    width: 20%;
+  }
+}
+
+

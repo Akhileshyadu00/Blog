@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Form</title>
+  <link rel="stylesheet" href="form1.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+        <h1>My Personal Blog</h1>
+        <p><em> "Welcome to My World: A Mosaic of Passions, Perspectives, and Possibilities"</em><br>
+            Hii, I am Akhilesh Yadav, a passionate individual with interests ranging from nature to technology. </p><br>
+        <p><a href="index.html">Home</a>
+            <a href="first-tour.html">First-Tour </a>
+            <a href="second.html">Second-Tour</a>
+            <a href="third.html">Third-Tour</a>
+            <a href="fourth.html">Fourth-Tour</a>
+            <a href="about.html">About Me</a>
+            <a href="form-grid.html">Contact Me</a></p>
+
+    </header>
+
+    <main class="main">
+        
+      <form class="contact-form">
+        <h3>Contact Us</h3><br>
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="Enter your email" required>
+        </div>
+
+        <div class="form-group">
+            <label for="phone">Phone:</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required>
+          </div>
+
+        <div class="form-group">
+          <label for="age">Age</label>
+          <input type="number" id="age" name="age" placeholder="Enter your age" min="1" max="120" required>
+        </div>
+
+        <div class="form-group">
+          <label for="sex">Sex</label>
+          <select id="sex" name="sex" required>
+            <option value="" disabled selected>Select your sex</option>
+            <option value="male">Male</option>
+            <option value="female">Female</option>
+            <option value="other">Other</option>
+            <option value="prefer-not-to-say">Prefer not to say</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" placeholder="Enter your message" required></textarea>
+        </div>
+
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </main>
+
+    <footer class="footer">
+        <a href="https://www.linkedin.com/in/akhileshyadu/">linkedin</a>
+        <a href="https://github.com/Akhileshyadu00">Github</a>
+        <a href="#Email">Email</a> <!--not added email link-->
+        <a href="about.html">About Me</a>
+        <a href="form1.html">Contact Me</a>
+        <br>
+        <p>&copy; 2025 My Personal Blog. All rights reserved.</p>
+        <p><a href="#">Privacy Policy</a> | <a href="#">Terms of Use</a></p><!--not added link-->
+    </footer>
+  </div>
+</body>
+</html>
